@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - WanderWorld</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="services-page">
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">WanderWorld</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+
+  <!-- Services Section -->
+
+
+  <section class="services-section">
+    <h1 class="main-heading">Our Travel Services</h1>
+    <div class="grid">
+      <div class="card" data-aos="zoom-in" onclick="openModal('hotelModal')">
+        <img src="img/hotel bookings.jpg" alt="Hotel Booking">
+        <h3>Hotel Bookings</h3>
+        <p>Choose from 5-star resorts to budget stays. Verified, reviewed, and trusted.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" onclick="openModal('flightModal')">
+        <img src="img/flight booking.jpg" alt="Flight Booking">
+        <h3>Flight Bookings</h3>
+        <p>Get the best deals on domestic and international flights with flexible options.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" onclick="openModal('tourModal')">
+        <img src="img/tour packages.jpg" alt="Tour Packages">
+        <h3>Tour Packages</h3>
+        <p>Explore curated tour packages across continents tailored to your interests.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" onclick="openModal('customModal')">
+        <img src="img/custom trips.jpg" alt="Custom Trips">
+        <h3>Custom Trips</h3>
+        <p>Craft personalized travel experiences from scratch with expert planners.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" onclick="openModal('insuranceModal')">
+        <img src="img/travel assisstance.jpg" alt="Insurance">
+        <h3>Travel Insurance</h3>
+        <p>Stay protected against unexpected events with reliable coverage plans.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" onclick="openModal('visaModal')">
+        <img src="img/visa.jpg" alt="Visa Assistance">
+        <h3>Visa Assistance</h3>
+        <p>Fast-track your visa process with our expert consultation and documentation.</p>
+      </div>
+    </div>
+
+  <!-- FAQs -->
+
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <details>
+        <summary>Can I cancel or reschedule my trip?</summary>
+        <p>Yes, depending on the booking policies of the specific service provider.</p>
+      </details>
+      <details>
+        <summary>Do I need travel insurance?</summary>
+        <p>It is highly recommended, especially for international travel.</p>
+      </details>
+      <details>
+        <summary>Do you offer group discounts?</summary>
+        <p>Yes, for 5+ travelers we offer special pricing and benefits.</p>
+      </details>
+      <details>
+        <summary>Can I customize my travel package?</summary>
+        <p>Absolutely! We offer personalized packages to suit your travel style, budget, and preferences. Just contact
+          us with your desired destinations, duration, and any special requests.</p>
+      </details>
+      <details>
+        <summary>How do I book a tour?</summary>
+        <p>You can book directly through our website, via WhatsApp, or by contacting our support team. A deposit may be required to confirm your reservation.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- whatsapp button -->
+     <div class="whatsapp">
+     <a href="https://www.whatsapp.com/">
+    <img src="whatsapp.png" alt="whatsapp" id="whatsapp">
+      </a>
+      </div>
+  <!-- Footer -->
+
+  <footer class="footer-new">
+    <div class="footer-container">
+      <div class="footer-logo-social">
+        <h2>WanderWorld</h2>
+        <p>Connecting travelers around the globe with exceptional experiences.</p>
+        <div class="social-icons">
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-help">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+        <p><i class="fas fa-phone-alt"></i> +92 300 1234567</p>
+        <p><i class="fas fa-envelope"></i> support@wanderworld.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 WanderWorld. All rights reserved. | Designed with ❤️</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- modals -->
+  <!-- hotelModal -->
+  <div id="hotelModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('hotelModal')">&times;</span>
+      <h2>Hotel Booking Details</h2>
+      <p>Book hotels across the globe with flexible options.</p>
+      <ul>
+        <li>Luxury Hotels: $150/night</li>
+        <li>Budget Hotels: $30/night</li>
+        <li>Instant Confirmation & 24/7 Support</li>
+      </ul>
+
+      <button onclick="toggleForm('hotelForm')" class="book-btn">Book Now</button>
+
+      <form id="hotelForm" class="booking-form" style="display: none;">
+        <h3>Booking Form</h3>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="date" required>
+        <select required>
+          <option value="">Select Room Type</option>
+          <option value="standard">Standard</option>
+          <option value="deluxe">Deluxe</option>
+          <option value="suite">Suite</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- flightModal -->
+
+  <div id="flightModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('flightModal')">&times;</span>
+      <h2>Flight Booking Details</h2>
+      <p>Book flights at competitive rates across all major airlines.</p>
+      <ul>
+        <li>Domestic Flights: Starting from $50</li>
+        <li>International Flights: Starting from $200</li>
+        <li>Flexible rescheduling and cancellations available</li>
+      </ul>
+      <p>Get real-time fare alerts and assistance with seat selection.</p>
+
+      <button onclick="toggleForm('flightForm')" class="book-btn">Book Now</button>
+
+      <form id="flightForm" class="booking-form" style="display: none;">
+        <h3>Flight Booking Form</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <label>Departure Date:</label>
+        <input type="date" required />
+        <label>Return Date:</label>
+        <input type="date" />
+        <select required>
+          <option value="">Select Class</option>
+          <option value="economy">Economy</option>
+          <option value="business">Business</option>
+          <option value="first">First Class</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- tourModal -->
+
+  <div id="tourModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('tourModal')">&times;</span>
+      <h2>Tour Packages</h2>
+      <p>Explore curated tour packages across continents tailored to your interests.</p>
+      <ul>
+        <li>Adventure Tours, Cultural Experiences, Relaxing Retreats</li>
+        <li>Group and Private Packages</li>
+        <li>Flexible Dates and Customizable Itineraries</li>
+      </ul>
+      <button onclick="toggleForm('tourForm')" class="inquiry-btn">Request More Info</button>
+
+      <form id="tourForm" class="inquiry-form" style="display: none;">
+        <h3>Inquiry Form</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Tell us about your interests or questions" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- custom trip modals -->
+
+  <div id="customModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('customModal')">&times;</span>
+      <h2>Custom Trip Planning</h2>
+      <p>Create a travel plan tailored to your interests, budget, and schedule.</p>
+      <ul>
+        <li>Flexible itineraries with expert travel planners</li>
+        <li>Budget, mid-range, or luxury customization</li>
+        <li>24/7 planner support</li>
+      </ul>
+      <p>Submit your preferences and receive a free draft plan.</p>
+
+      <button onclick="toggleForm('customForm')" class="book-btn">Request Plan</button>
+
+      <form id="customForm" class="booking-form" style="display: none;">
+        <h3>Custom Trip Inquiry Form</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Describe your travel interests and preferences" required></textarea>
+        <input type="text" placeholder="Estimated Budget" />
+        <label>Preferred Travel Dates:</label>
+        <input type="date" />
+        <input type="date" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- travel insurance model -->
+
+  <div id="insuranceModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('insuranceModal')">&times;</span>
+      <h2>Travel Insurance Plans</h2>
+      <p>Protect your journey with reliable insurance options.</p>
+      <ul>
+        <li>Medical Coverage up to $100,000</li>
+        <li>Lost baggage and trip cancellation protection</li>
+        <li>Starts at $30 per trip</li>
+      </ul>
+      <button onclick="toggleForm('insuranceForm')" class="inquiry-btn">Request Quote</button>
+
+      <form id="insuranceForm" class="inquiry-form" style="display: none;">
+        <h3>Quote Request Form</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="date" placeholder="Travel Start Date" required />
+        <input type="date" placeholder="Travel End Date" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!-- visa assisstance modal -->
+
+  <div id="visaModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" onclick="closeModal('visaModal')">&times;</span>
+      <h2>Visa Assistance</h2>
+      <p>We help you gather the right documents and apply confidently.</p>
+      <ul>
+        <li>Tourist & business visas for over 60 countries</li>
+        <li>Free document checking and guidance</li>
+        <li>Starting from $25 per application</li>
+      </ul>
+      <button onclick="toggleForm('visaForm')" class="inquiry-btn">Request Assistance</button>
+
+      <form id="visaForm" class="inquiry-form" style="display: none;">
+        <h3>Assistance Request Form</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="Country of Visa" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
